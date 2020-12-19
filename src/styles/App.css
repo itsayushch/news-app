@@ -1,0 +1,88 @@
+@import "~antd/dist/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: white;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  padding-bottom: 40px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background: linear-gradient(#6ee7b7, #d8b4fe);
+  color: aquamarine;
+}
+
+.App-header {
+  color: #474f85;
+  font-family: 'Amaranth', sans-serif;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}
+
+
+#news {
+  color: #474f85;
+  font-family: 'Amaranth', sans-serif;
+}
+
+#news a {
+  text-decoration: none;
+}
+
+.ant-pagination {
+  text-align: center;
+}
+
+.ant-list-item-meta-description {
+  color: #5b7083;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.ant-list-item-meta-title {
+  font-family: 'Amaranth', sans-serif;
+  font-weight: bold;
+}
+
+.news-content {
+  font-family: 'Varela Round', sans-serif;
+}
+
+#provider {
+  font-family: 'Amaranth', sans-serif;
+}
